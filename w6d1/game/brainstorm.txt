@@ -1,0 +1,17 @@
+Classes - Game, Player, Turn, Problem
+
+Player - This class will define the players (Player1 and Player2). It will also
+keep track of how many lives each player has.
+  Initialized -
+  Public Methods -
+
+Turn - This will initiate the start of a new turn after the players answer is
+submitted. If the answer is incorrect it will give them a prompt to let them know
+as well as info on their lives remaining. Then proceed to the next turn.
+  Initialized - 
+  Public Methods -
+
+Problem - This is where the math problems will be created. Two numbers between 1
+and 20 will be selected and then put into a string ("What does num + num equal?")
+  Initialized - New turn must be starting
+  Public Methods - Problem
